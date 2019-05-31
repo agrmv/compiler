@@ -1,5 +1,5 @@
 ,LET,IN,END,TYPE,ID,INT,FLOAT,INTLIT,FLOATLIT,ARRAY,LBRACK,RBRACK,SEMI,OF,VAR,COLON,COMMA,ASSIGN,FUNC,LPAREN,RPAREN,BEGIN,IF,THEN,WHILE,DO,ENDDO,FOR,TO,BREAK,RETURN,ENDIF,ELSE,OR,AND,GREATER,LESSER,GREATEREQ,LESSEREQ,EQ,NEQ,PLUS,MINUS,MULT,DIV,$
-tiger-program,1,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,
+agrmv-program,1,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,
 declaration-segment,  ,  ,  ,2,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,2,  ,  ,  ,2,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,
 type-declaration-list,  ,3,  ,4,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,3,  ,  ,  ,3,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,
 var-declaration-list,  ,5,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,6,  ,  ,  ,5,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,
