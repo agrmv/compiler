@@ -1,0 +1,9 @@
+et
+        var a, b : int := 7;
+in
+        a := 1;
+        while(a < 100) do
+               a + := b;
+        enddo;
+        printi(a);
+end

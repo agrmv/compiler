@@ -1,0 +1,40 @@
+let
+        type int_arr = array [5] of float;
+        var a : int_arr := 0.0;
+        var i : int := 0;
+        var min : float := 100.0;
+        var max : float := 0.0;
+        var resultMin : float := 100.0;
+        var resultMax : float := 0.0;
+
+
+        function findMin ( n : int) : float begin
+        	for i := 0 to 5 do
+                if(a[i] < min) then
+                    min := a[i];
+                endif;
+            enddo;
+            return min;
+        end;
+
+        function findMax ( n : int ) : float begin
+            for i := 0 to 5 do
+                if(a[i] > max) then
+                     max := a[i];
+                endif;
+            enddo;
+            return max;
+        end;
+in
+        a[0] := 5.0;
+        a[1] := 6.0;
+        a[2] := 7.0;
+        a[3] := 0.0;
+        a[4] := 10.0;
+
+        resultMin := findMin(0);
+        resultMin := findMax(0);
+        printf(resultMin);
+        printf(resultMax);
+
+end
