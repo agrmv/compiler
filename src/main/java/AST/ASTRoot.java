@@ -12,7 +12,7 @@ public class ASTRoot extends Node {
     public ArrayList<FunDec> funDecs = new ArrayList<FunDec>();
     public ArrayList<Stat> stats = new ArrayList<Stat>();
 
-    public String type(){return "Tiger";}
+    public String type(){return "agrmv";}
     public void accept(Visitor v) { v.visit(this); }
     public ArrayList<Node> children(){
         ArrayList<Node> children = new ArrayList<>();
